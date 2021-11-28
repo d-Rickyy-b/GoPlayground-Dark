@@ -1,0 +1,87 @@
+/* ==UserStyle==
+@name           GoPlayground-Dark
+@namespace      github.com/d-Rickyy-b
+@version        1.0.0
+@description    A dark theme for the "Go Playground"
+@homepageURL    https://github.com/d-Rickyy-b/GoPlayground-Dark
+@updateURL      https://raw.githubusercontent.com/d-Rickyy-b/GoPlayground-Dark/main/goplayground-dark.user.css
+@license        MIT
+@author         d-Rickyy-b
+==/UserStyle== */
+
+@-moz-document domain("play.golang.org"), regexp("^https?://go.dev/play/.*") {
+    
+    #banner {
+        background-color: #1a1f25;
+    }
+    
+    #wrap, #about {
+        background: #1f2c36;
+    }
+    
+    #output {
+        background: #273844;
+    }
+    
+    body {
+        color: #c9d1d9;
+    }
+    
+    #code {
+        color: #c9d1d9;
+    }
+    
+    a {
+    color: #548BE1;
+    }
+    
+    .Header {
+        background-color: #1a1f25;
+    }
+    
+    .SiteContent {
+        background-color: #1c2831;
+    }
+    
+    .Playground-inputContainer, .Playground-input,
+    .Playground-outputContainer, .Playground-output {
+        background: #1f2c36;
+        color: #c9d1d9;
+        border-color: #000;
+    }
+    
+    .Playground-runButton {
+        background-color: #365da8 !important;
+        color: #000;
+        border-color: #365da8;
+    }
+    
+    .Button, .Button:link, .Button:visited {
+        background-color: #3f4954;
+        color: #d3d3d3;
+    }
+    
+    .Footer {
+        background-color: #1a1f25;
+        color: #d3d3d3;
+    }
+    
+    .Site-footer {
+        border-color: #000;
+    }
+    
+    a, a:link, a:visited {
+        color: #375eab;    
+    }
+    
+    a.Footer-link,
+    .Footer-listItem a:link, .Footer-listItem a:visited{
+        color: #d3d3d3;
+    }
+    
+    .Playground-selectExample {
+        background-color: #3f4954;
+    }
+    
+    
+}
