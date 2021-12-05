@@ -9,7 +9,7 @@
 @author         d-Rickyy-b
 ==/UserStyle== */
 
-@-moz-document domain("play.golang.org"), regexp("^https?://go.dev/play/.*") {
+@-moz-document domain("play.golang.org"), regexp("^https?://go.dev/play/.*"), regexp("^https?://go.dev/play$") {
     
     #banner {
         background-color: #1a1f25;
