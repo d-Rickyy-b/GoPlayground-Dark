@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           GoPlayground-Dark
 @namespace      github.com/d-Rickyy-b
-@version        1.0.0
+@version        1.1.0
 @description    A dark theme for the "Go Playground"
 @homepageURL    https://github.com/d-Rickyy-b/GoPlayground-Dark
 @updateURL      https://raw.githubusercontent.com/d-Rickyy-b/GoPlayground-Dark/main/goplayground-dark.user.css
@@ -79,7 +79,7 @@
         color: #d3d3d3;
     }
     
-    .Playground-selectExample {
+    .Playground-selectExample, .Playground-selectGoVersion, .Playground-shareURL {
         background-color: #3f4954;
     }
     
