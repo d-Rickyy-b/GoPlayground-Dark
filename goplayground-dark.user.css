@@ -31,10 +31,6 @@
         color: #c9d1d9;
     }
     
-    a {
-    color: #548BE1;
-    }
-    
     .Header {
         background-color: #1a1f25;
     }
@@ -71,7 +67,7 @@
     }
     
     a, a:link, a:visited {
-        color: #375eab;    
+        color: #50b7e0;    
     }
     
     a.Footer-link,
